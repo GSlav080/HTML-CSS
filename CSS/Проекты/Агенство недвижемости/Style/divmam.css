@@ -1,0 +1,93 @@
+#divmam {position: relative;
+				height: 3000px;
+				top:-15px;
+				left: -10px}
+
+
+
+.divdot {
+				position: relative;
+				top: 100px;
+				left: 50px;
+				height: 500px;
+				width: 1700px;
+				border-radius: 100px;
+				border: 5px groove #c7cedf;}
+
+.divdot:hover {background: #002a29;}
+
+.picture {position: relative;
+					top:-1px;
+					left: -1px;
+				}
+.picture img {	border-radius:100px}
+
+.picture img:hover {position: relative;
+										height: 700px;
+										width: 700px;
+										top: -100px;
+										left: -50px}
+
+.name {position: absolute;
+						top: 10px;
+						left: 700px;
+						font-size: 40px}
+.name:hover {color: red}
+
+.cen {position: absolute;
+						top: 10px;
+						left: 1400px;
+						font-size: 40px}
+
+.divdiv1 {position: absolute;
+						top: 80px;
+						left: 700px;
+						font-size: 20px}
+.divdiv2 {position: absolute;
+						top: 120px;
+						left: 700px;
+						font-size: 20px}
+
+
+.divcen {width: 400px;
+					height: 50px;
+					position: absolute;
+					background: #976f4f;
+					border-radius: 100px
+					}
+#divcen1 {top: 180px;
+					left: 690px;}
+#divcen2 {top: 240px;
+					left: 690px;}
+#divcen3 {top: 300px;
+					left: 690px;}
+#divcen4 {top: 360px;
+					left: 690px;}
+#divcen5 {top: 420px;
+					left: 690px;
+					background: #c7cedf}
+.numder1 {width: 210px;
+					height: 50px;
+					position: absolute;
+					background: #976f4f;
+					border-radius: 100px;
+					left: 1400px;
+					top: 400px;
+					font-size: 40px;}
+
+.divcen div div {position: relative;
+						top: 10px;
+						left: 30px;
+						font-size: 30px;
+						text-align: left;}
+#id5				 {position: relative;
+						top: 10px;
+						left: 30px;
+						font-size: 30px;
+						text-align: left;}
+
+
+.divcen:hover {background: #4d2a16}
+
+.numder1:hover {background: #a1ae25}
+a {display: block;}

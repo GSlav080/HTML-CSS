@@ -1,0 +1,13 @@
+#divgl {color: white;
+				height: 900px;
+				width: 900px;
+				top: 480px;
+				left: 500px;
+				position: absolute;
+				background: #002a29;
+				border:#c7cedf 2px solid;
+				border-radius: 100px;
+				text-align: center;
+				font-size: 20px;
+				font: MerriWeather;}
+ul {text-align: left;}

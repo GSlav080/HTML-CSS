@@ -1,0 +1,22 @@
+#div1 {position: relative;
+			top:50px;
+			left:300px;
+			border-radius: 300px;
+			border:2px #c7cedf solid;
+			width: 500px;
+			text-align:center;}
+
+#div1:hover {background: #976f4f}
+
+
+#div2 {position: relative;
+			top:50px;
+			left:300px;
+			border-radius: 30px;
+			border:2px #c7cedf solid;
+			width: 1000px;
+			height: 650px;
+			background: #002a29;}
+#div3 {position: relative;
+			top:10px;
+			left: 15px}

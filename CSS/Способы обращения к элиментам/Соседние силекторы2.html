@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {background-color: grey}
+
+
+		#mali{font-size: inherit;
+		background-color: green;
+		width: 600px;
+		border-radius: 20px;
+		}
+		.clore {border: 1px dotted red;
+								border-radius: 20px;
+							}
+		#more {font-size: white;
+						border:2px solid yellow;
+						border-radius:30px ;
+						background-color: purple }
+
+		#more + #mali {border: 1px dotted red;
+								border-radius: 20px;
+							}
+
+		#mali + .clore {background-color: blue;
+										color:white;}
+		span + span {background-color: orange}
+
+		.rama {border: 20px solid red;
+						border-radius: 50%;
+						background-color: blue; 
+						width: 1000px;
+						height: 500px;}
+		.rama> #soc {margin-left:90px;
+							margin-top: 125px;
+							font-size: 200px;
+							color: white;
+							}
+		.rama1  {margin-left:90px;
+							margin-top: 0px;
+							font-size: 20px;
+							color: white;
+							}
+
+
+	</style>
+	<title>Соседние силектор</title>
+</head>
+<body>
+
+	<p id="more">
+		Китай заявил, что большая часть обломков ракет сгорела при входе в атмосферу
+	</p>
+
+	<div id="mali">
+			ПЕКИН (АП) - Китайское космическое агентство заявило, что основная часть его самой большой ракеты повторно вошла в атмосферу Земли над Мальдивами в Индийском океане и что большая ее часть сгорела в начале воскресенья. <span>Гарвардский астрофизик Джонатан Макдауэлл,</span> который отслеживал падающую часть ракеты, сказал в Twitter: <span>«Возвращение в океан всегда было статистически наиболее вероятным. Похоже, Китай выиграл свою авантюру ... Но он все еще был безрассудным ».</span>
+	</div>
+
+	<p class="clore">
+			ПЕКИН (АП) - Китайское космическое агентство заявило, что основная часть его самой большой ракеты повторно вошла в атмосферу Земли над Мальдивами в Индийском океане и что большая ее часть сгорела в начале воскресенья. Гарвардский астрофизик Джонатан Макдауэлл, который отслеживал падающую часть ракеты, сказал в Twitter: <span>«Возвращение в океан всегда было статистически наиболее вероятным. Похоже, Китай выиграл свою авантюру ... Но он все еще был безрассудным ».</span>
+	</p>
+	<div class="rama">
+		<p id="soc">ПРИВЕТ!</p>
+		<p class="rama1">Читатель</p>
+	</div>>
+
+
+</body>
+</html>

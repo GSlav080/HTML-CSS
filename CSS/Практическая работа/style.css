@@ -1,0 +1,22 @@
+#id1 li {border: solid 1px green;
+		border-radius: 20%;
+		display:inline-block;
+		text-align: center
+		}
+#id1 li:hover {background-color: green;
+							font-weight: bold;
+						}
+
+#id2 li {border: solid 1px green;
+		border-radius: 20%;
+		display:block;
+		text-align: center;
+		width: 10%;
+		height: 20%;}
+
+#id2 li:hover {background-color: green;
+							font-weight: bold;
+						}
+
+
+

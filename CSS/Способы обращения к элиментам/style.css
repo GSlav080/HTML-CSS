@@ -1,0 +1,39 @@
+/*Силектор тегов*/
+
+p {border: 2px inset green;
+
+	border-bottom: 5px outset green;
+	border-radius: 10px;	}
+
+
+
+
+
+/*Классы*/
+
+.border{border: 5px solid #40c4c8;
+	cursor: url(Image/Курсор.png), pointer;
+	border-image: url(Image/Picture1.png) 30 round round;
+  padding: 20px;
+			}
+
+.cursor {cursor: help;
+					font-size: 20px;
+				background-color: yellow;}
+
+.cursor2 {cursor: crosshair;
+					font-size: 30px;
+					border: 4px inset yellow;
+					border-bottom: 15px outset yellow;
+					border-radius: 20px;	}
+
+
+
+
+/*Идентификатор*/
+
+#l12 {border-bottom-style: double blue;
+border: 5px solid #40c4c8;
+	cursor: url(Image/Курсор.png), pointer;
+	border-image: url(Image/Picture1.png) 30 round round;
+  padding: 20px;}

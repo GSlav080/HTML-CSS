@@ -1,0 +1,9 @@
+#positijn {position: sticky;
+		top: 0px}
+
+body{height: 3000px;
+	}
+
+div {background-color: #d5e2ed;
+	height: 3000px;
+	position: absolute right;}

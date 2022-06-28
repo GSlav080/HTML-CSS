@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex-технология</title>
+	<style type="text/css">
+		#parent1 {
+			width: 500px
+			height: 1600px;
+			display: inline-block;
+		}
+		#parent2 {
+			width: 500px;
+			height: 1600px;
+			display: inline-block;
+		}
+		#container {
+            width: 600px;
+            height: 500px;
+            background-color: #353b48;
+		}
+		#container div {
+			font-size: large;
+			display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #192a56; 
+            margin: 4px;
+		}
+		#container11 {
+			margin-top: 20px;
+			display: flex;
+			width: 600px;
+            height: 500px;
+            background-color: #353b48;
+            
+		}
+		#container11 div {
+			font-size: large;
+			display: flex;
+			align-items: center;
+            justify-content: center;
+            border: 2px solid #192a56; 
+            margin: 4px;
+		}
+			#container12 {
+			flex-direction: row-reverse;
+			margin-top: 20px;
+			display: flex;
+			width: 600px;
+            height: 500px;
+            background-color: #353b48;
+            
+		}
+		#container12 div {
+			font-size: large;
+			display: flex;
+            border: 2px solid #192a56; 
+            margin: 4px;
+            align-items: center;
+            justify-content: center;
+		}
+		#container21 {
+            width: 600px;
+            height: 500px;
+            background-color: #353b48;
+            display: flex;
+            flex-direction: column-reverse;
+		}
+		#container21 div {
+			font-size: large;
+			display: flex;
+            border: 2px solid #192a56; 
+            margin: 4px;
+            align-items: center;
+            justify-content: center;
+		}
+		#container22 {
+			margin-top: 20px;
+			display: flex;
+			width: 600px;
+            height: 500px;
+            background-color: #353b48;
+            flex-direction: column;
+            align-items: center;
+
+		}
+		#container22 div {
+
+			font-size: large;
+            border: 2px solid #192a56; 
+            margin: 4px;
+		}
+		#container23 {
+			flex-direction: column-reverse;
+            align-items: center;
+			margin-top: 20px;
+			display: flex;
+			width: 600px;
+            height: 500px;
+            background-color: #353b48;
+            
+		}
+		#container23 div {
+			font-size: large;
+			display: flex;
+            border: 2px solid #192a56; 
+            margin: 4px;
+            align-items: center;
+            justify-content: center;
+		}
+
+		#block1 {
+
+			width: 50%;
+			height: 20%;
+			background-color: #273c75;
+		}
+		#block2 {
+			width: 40%;
+			height: 15%;
+			background-color: #7f8fa6;
+		}
+		#block3 {
+			width: 30%;
+			height: 10%;
+			background-color: #f5f6fa;
+		}
+		#block4 {
+			width: 20%;
+			height: 5%;
+			background-color: #487eb0
+		}
+	</style>
+</head>
+<body>
+	<div id="parent1">
+	<div id="container">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	<div id="container11">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	<div id="container12">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	</div>
+	<div id="parent2">
+	<div id="container21">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	<div id="container22">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	<div id="container23">
+		<div id="block1">1</div>
+		<div id="block2">2</div>
+		<div id="block3">3</div>
+		<div id="block4">4</div>
+	</div>
+	</div>
+	
+</body>
+</html>
